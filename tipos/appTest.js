@@ -10,17 +10,17 @@
     // Arreglos
     const aliados = ['Mujer Maravilla', 'Acuaman', 'San', 'Flash'];
     //Enumeraciones
-    const fuerzaFlash = 5;
-    const fuerzaSuperman = 100;
-    const fuerzaBatman = 1;
-    const fuerzaAcuaman = 0;
     let power;
     (function (power) {
-        power[power["fuerzaAcuaman"] = 0] = "fuerzaAcuaman";
-        power[power["fuerzaBatman"] = 1] = "fuerzaBatman";
-        power[power["fuerzaFlash"] = 2] = "fuerzaFlash";
-        power[power["fuerzaSuperman"] = 3] = "fuerzaSuperman";
+        power[power["Acuaman"] = 0] = "Acuaman";
+        power[power["Batman"] = 1] = "Batman";
+        power[power["Flash"] = 5] = "Flash";
+        power[power["Superman"] = 100] = "Superman";
     })(power || (power = {}));
+    const fuerzaFlash = power.Flash;
+    const fuerzaSuperman = power.Superman;
+    const fuerzaBatman = power.Batman;
+    const fuerzaAcuaman = power.Acuaman;
     // Retorno de funciones
     function activar_batiseñal() {
         return 'activada';

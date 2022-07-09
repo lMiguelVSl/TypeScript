@@ -14,17 +14,18 @@
     const aliados = ['Mujer Maravilla','Acuaman','San', 'Flash'];
   
     //Enumeraciones
-    const fuerzaFlash    = 5;
-    const fuerzaSuperman = 100;
-    const fuerzaBatman   = 1;
-    const fuerzaAcuaman  = 0;
-
     enum power {
-      fuerzaAcuaman,
-      fuerzaBatman,
-      fuerzaFlash,
-      fuerzaSuperman,
+      Acuaman = 0,
+      Batman  = 1,
+      Flash   = 5,
+      Superman= 100,
     }
+
+    const fuerzaFlash    = power.Flash;
+    const fuerzaSuperman = power.Superman;
+    const fuerzaBatman   = power.Batman;
+    const fuerzaAcuaman  = power.Acuaman;
+
   
     // Retorno de funciones
     function activar_batiseñal () : string {
