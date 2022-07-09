@@ -21,10 +21,10 @@
       Superman= 100,
     }
 
-    const fuerzaFlash    = power.Flash;
-    const fuerzaSuperman = power.Superman;
-    const fuerzaBatman   = power.Batman;
-    const fuerzaAcuaman  = power.Acuaman;
+    const fuerzaFlash    : power = power.Flash;
+    const fuerzaSuperman : power = power.Superman;
+    const fuerzaBatman   : power = power.Batman;
+    const fuerzaAcuaman  : power = power.Acuaman;
 
   
     // Retorno de funciones
