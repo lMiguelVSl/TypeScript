@@ -4,4 +4,5 @@
         return `${firstName} ${LastName}`;
     };
     const name = fullName('Miguel', 'Vargas');
+    console.log({ name });
 })();

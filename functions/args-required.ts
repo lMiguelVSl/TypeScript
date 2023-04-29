@@ -4,4 +4,5 @@
     }
 
     const name = fullName('Miguel', 'Vargas');
+    console.log({ name })
 })()
